@@ -1,0 +1,16 @@
+sqlite3
+os
+base64
+secrets
+qrcode
+json
+cryptography
+huggingface-hub
+insightface
+numpy
+opencv-python
+matplotlib
+streamlit
+random
+pyzbar
+twilio
