@@ -61,20 +61,3 @@ streamlit run app.py
 The application will open in your browser. You can now test the complete workflow and check the logs table in students.db afterwards to ensure entries are being made.
 
 **NOTE:** Using the OTP service requires an active internet connection.
-
-## Directory structure:
-qr_code_cso332/
-│
-├── app.py
-├── encrypted_qr_generator.ipynb
-├── face_recog.ipynb
-├── requirements.txt
-├── students.db
-│
-├── qrcodes/
-│   └── <generated_qr_codes>
-│
-└── sample_images/
-    ├── student1_imgs/
-    ├── student2_imgs/
-    └── ...
