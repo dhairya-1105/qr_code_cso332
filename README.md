@@ -61,3 +61,15 @@ streamlit run app.py
 The application will open in your browser. You can now test the complete workflow and check the logs table in students.db afterwards to ensure entries are being made.
 
 **NOTE:** Using the OTP service requires an active internet connection.
+
+## Screenshots
+![step1](assets/step1.png)
+![step2](assets/step2.png)
+![step2_confirmed](assets/step2_success.png)
+![step3](assets/step3.png)
+![step3_otp_success](assets/step3_fetched.png)
+![step4](assets/step4.png)
+![step4_match_score](assets/step4_matchscore.png)
+![step4_denied](assets/step4_denied.png)
+![db_logs](assets/db_logs.png)
+
