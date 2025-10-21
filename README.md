@@ -37,7 +37,7 @@ pip install -r requirements.txt
 ```
 
 ### Step 3: Generate Encrypted QR Codes
-Open and run the notebook `encrypted_qr_generator.ipynb`. Inside the notebook, update the students list with your own student entries (e.g., name, roll number, contact details, etc.). After execution, encrypted QR codes will be generated inside a new directory called `qrcodes`. Make sure to save the KEY generated in this notebook, as it'll be used later.
+Open and run the notebook `encrypted_qr_generator.ipynb`. Inside the notebook, update the students list with your own student entries (e.g., name, roll number, contact details, etc.). For testing purposes, you can replace all the contact numbers with your own to make sure you get the OTP. After execution, encrypted QR codes will be generated inside a new directory called `qrcodes`. Make sure to save the KEY generated in this notebook, as it'll be used later.
 
 ### Step 4: Prepare Sample Images
 Create a new directory named `sample_images`. Inside it, create subdirectories using the naming format `name_imgs` where name corresponds to the student's name. Place 3 face images for each student inside their respective folder.
